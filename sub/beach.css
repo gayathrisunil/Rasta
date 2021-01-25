@@ -1,0 +1,95 @@
+html{
+  scroll-behavior: smooth;
+}
+.head{
+  max-height: 55px;
+  background-color: #92d4d1;
+}
+.goback{
+  margin-top: 2px;
+  padding-top: 2px;
+  padding-left: 2px;
+}
+
+.backbtn{
+  background: transparent;
+  border: none !important;
+  font-size:0;
+}
+
+.top{
+  background-image: url(./subimg/bcg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 80px;
+  font-weight: bold;
+  width: 100%;
+  min-height: 50vh;
+  padding-top: 30vh;
+  text-align: center; 
+  text-decoration: none;
+  color: white;
+}
+
+.top a {                              
+  display: inline-block;
+  background-color: #ff7d27;;
+  padding: 12px 15px;
+  border-radius: 3px;
+  font-size: 16px;
+  /*color: #92c2d4;*/
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.places span{                                   
+  color: #BBD7F2;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+.mid{
+  background-color: #92d4d1;
+}
+
+.row {  
+  margin-left: 40px;                                      
+  display:  subgrid;
+  flex-wrap: wrap;
+  flex: 25%;
+  padding: 30px;
+}
+
+.rowbtn button{
+  margin-left: 0px;
+  display: subgrid;
+  padding-top: 10px;
+
+  min-width: 371px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+
+  display: inline-block;
+  background-color: #ff7d27;;
+  padding: 12px 15px;
+  /*color: #92c2d4;*/
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.column img {
+  display: inline-block;
+  background-color: #fff;
+  width: 350px;
+  height: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 55px;
+}
+
